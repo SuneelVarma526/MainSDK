@@ -27,7 +27,7 @@ final class MainSDKTestCase: XCTestCase {
     func testADD() throws {
         XCTAssertEqual(cal.add(), 30, "Resultis correct")
         XCTAssertNotEqual(cal.dif(), 10, "result is not correct")
-        XCTAssertNoThrow(try cal.div(), "Not throw anyerror")
+        XCTAssertNoThrow(try cal.div(), "Not throw any error")
     }
     func testPerformanceExample() throws {
         // This is an example of a performance test case.

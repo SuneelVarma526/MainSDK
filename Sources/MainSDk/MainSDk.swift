@@ -13,7 +13,6 @@ public class Calculator {
     public var b:Int = 0
     
     public init() {
-      print("sampl e ")
     }
     
     public func add() -> Int {
